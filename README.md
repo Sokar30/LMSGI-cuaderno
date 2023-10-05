@@ -18,9 +18,17 @@ De hecho, el lenguaje de marcado posee algunas características distintivas, com
 
 Además, es fácil acceder a su contenido a través de cualquier dispositivo y altamente flexible, ya que permite combinar con otros lenguajes. También se trata de un lenguaje compacto en el que las etiquetas de marcas se unen con el contenido del mismo.
 
+# Historia y evolución de los lenguajes de marcas
 
+En los años 60 se planteó un problema que existía en el mundo de la informática: No había prácticamente ninguna compatibilidad entre sistemas operativos y programas.
 
+Es a raíz de esta problemática que entre 1969 y 1970, un investigador de IBM, Charles Goldfarb contribuye al desarollo del lenguaje de marcas GML (*IBM Generalized Markup Language, por sus siglas en inglés*). No obstante, este lenguaje no estaba estandarizado, lo que conllevaba que únicamente la empresa propietaria del lenguaje sabía hacerlo funcionar correctamente.
 
+En base a la necesidad generada por falta de un estándar, en 1986 se aprueba la norma ISO 8879 que define SGML (*Standard Generalized Markup Language, por sus siglas en inglés*). 
+
+Se trata de un modelo abierto para la creación de documentación electrónica, que unifica la aplicación de los conceptos de anotación estructural de los documentos. No es un formato de almacenamiento ni un procesador de textos, sino un metalenguaje con el cual se pueden crear y definir diferentes lenguajes de anotación o marcas, con los cuales es posible procesar, gestionar y almacenar un texto; esto es lo que ocurre en el caso del HTML, utilizado para la descripción de documentos en web.
+
+Básicamente, el SGML (Standard Generalized Markup Language) es un modelo internacional que permite estandarizar y definir formalmente un documento electrónico, independientemente del software, la aplicación o el sistema que se utilice.
 
 
 
@@ -28,6 +36,7 @@ Además, es fácil acceder a su contenido a través de cualquier dispositivo y a
 ## Referencias
 
 * [Artículo universidad Europea] (https://universidadeuropea.com/blog/que-es-lenguaje-marca/)
+* [UOC sobre SGML] (http://cv.uoc.edu/UOC/a/moduls/90/90_225/web/main/m1/v4_1.html#:~:text=B%C3%A1sicamente%2C%20el%20SGML%20(Standard%20Generalized,el%20sistema%20que%20se%20utilice.)
 
 ## Enlaces de interés
 * [W3C] (https://www.w3.org/)
