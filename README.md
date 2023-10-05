@@ -38,6 +38,11 @@ En 1998 surge como estándar del W3C el lenguaje de marcas XML. Se trata de un l
 
 Por último, destacar que más tarde se crearía el lenague XHTML, que se utiliza pra la creación de páginas webs, y usa reglas de sintaxis XML, que son más estrictas que HTML. XHTML tiene como objetivo proporcionar consistencia de representación entre los navegadores. 
 
+# Características de los lenguajes de marcas
+## XML
+
+
+
 
 ## Referencias
 
