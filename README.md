@@ -40,7 +40,11 @@ Por último, destacar que más tarde se crearía el lenague XHTML, que se utiliz
 
 # Características de los lenguajes de marcas
 ## XML
+### Las características de XML son las siguientes: 
 
+1. XML Se centra prioriza la información a la apariencia: Una de las razones por las que XML es popular es porque prioriza la información a la presentación de la misma.
+
+2. Intercambio de datos fácil y eficaz: 
 
 
 
@@ -49,6 +53,8 @@ Por último, destacar que más tarde se crearía el lenague XHTML, que se utiliz
 * [Artículo universidad Europea] (https://universidadeuropea.com/blog/que-es-lenguaje-marca/)
 * [UOC sobre SGML] (http://cv.uoc.edu/UOC/a/moduls/90/90_225/web/main/m1/v4_1.html#:~:text=B%C3%A1sicamente%2C%20el%20SGML%20(Standard%20Generalized,el%20sistema%20que%20se%20utilice.)
 * [Artículo sobre Lenguajes de marcas] (https://gsitic.wordpress.com/2018/01/06/bii9-lenguajes-de-marca-o-etiqueta-caracteristicas-y-funcionalidades-sgml-html-xml-y-sus-derivaciones-lenguajes-de-script/)
+* [Dpto. Informática Universidad de Burgos - XML] (https://www.infor.uva.es/~jvegas/cursos/web/xml/ixml/ixml.html)
+* [XML] (https://beginnersbook.com/2018/10/xml-features/)
 
 ## Enlaces de interés
 * [W3C] (https://www.w3.org/)
