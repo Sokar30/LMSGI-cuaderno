@@ -44,8 +44,11 @@ Por último, destacar que más tarde se crearía el lenague XHTML, que se utiliz
 
 1. XML Se centra prioriza la información a la apariencia: Una de las razones por las que XML es popular es porque prioriza la información a la presentación de la misma.
 
-2. Intercambio de datos fácil y eficaz: 
+2. Intercambio de datos fácil y eficaz: Como XML es independiente del software y el hardware, es más fácil compartir datos entre distintos sistemas con diferente configuración de hardware y software. Cualquier sistema con cualquier lenguaje de programación puede leer y procesar un documento XML.
 
+3. Compatibilidad con HTML: Es mucho más fácil leer los datos de XML y mostrarlos en una GUI (interfaz gráfica de usuario, por sus siglas en inglés) utilizando el lenguaje de marcado HTML.
+
+4. Permite la transición de plataforma
 
 
 ## Referencias
