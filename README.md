@@ -30,13 +30,20 @@ Se trata de un modelo abierto para la creación de documentación electrónica, 
 
 Básicamente, el SGML (Standard Generalized Markup Language) es un modelo internacional que permite estandarizar y definir formalmente un documento electrónico, independientemente del software, la aplicación o el sistema que se utilice.
 
+Entre 1989 y 1991 se crea HTML a partir de SGML. Es un lenguaje fácil de usar y con un uso muy extendido.
 
+Con el paso del tiempo, HTML va evolucionando en sus versiones hasta llegar a  la actual: HTML 5.
+
+En 1998 surge como estándar del W3C el lenguaje de marcas XML. Se trata de un lenguaje que permite definir y almacenar datos de forma compartible. Es un lenguaje sencillo de comprender y está diseñado para ser usado en cualquier alfabeto.
+
+Por último, destacar que más tarde se crearía el lenague XHTML, que se utiliza pra la creación de páginas webs, y usa reglas de sintaxis XML, que son más estrictas que HTML. XHTML tiene como objetivo proporcionar consistencia de representación entre los navegadores. 
 
 
 ## Referencias
 
 * [Artículo universidad Europea] (https://universidadeuropea.com/blog/que-es-lenguaje-marca/)
 * [UOC sobre SGML] (http://cv.uoc.edu/UOC/a/moduls/90/90_225/web/main/m1/v4_1.html#:~:text=B%C3%A1sicamente%2C%20el%20SGML%20(Standard%20Generalized,el%20sistema%20que%20se%20utilice.)
+* [Artículo sobre Lenguajes de marcas] (https://gsitic.wordpress.com/2018/01/06/bii9-lenguajes-de-marca-o-etiqueta-caracteristicas-y-funcionalidades-sgml-html-xml-y-sus-derivaciones-lenguajes-de-script/)
 
 ## Enlaces de interés
 * [W3C] (https://www.w3.org/)
