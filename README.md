@@ -209,8 +209,6 @@ Las bases de datos, los documentos de texto, las hojas de cálculo y las página
 ### Prólogo
 Esta línea se denomina prólogo:
 
-<?xml version="1.0" encoding="UTF-8"?>
-
 El prólogo XML es opcional. Si existe, debe figurar en primer lugar en el documento.
 
 Los documentos XML pueden contener caracteres internacionales, como el øæå noruego o el êèé francés.
@@ -220,13 +218,33 @@ Para evitar errores, se debe especificar la codificación utilizada o guardar su
 UTF-8 es la codificación de caracteres por defecto para los documentos XML.
 
 ### Etiquetas
+Todos los elementos XML deben tener una etiqueta de cierre
 
+En XML, es ilegal omitir la etiqueta de cierre. Todos los elementos deben tener una etiqueta de cierre
 
+Las etiquetas XML distinguen entre mayúsculas y minúsculas.
 
+Las etiquetas de apertura y cierre deben escribirse con las mismas mayúsculas y minúsculas.
 
+Las "etiquetas de apertura y cierre" suelen denominarse "etiquetas de inicio y fin".Se puede utilizar lo que prefiera. Es exactamente lo mismo.
 
+### Atributos
+Los valores de los atributos XML siempre deben entrecomillarse
 
+Los elementos XML pueden tener atributos en pares nombre/valor, igual que en HTML.
 
+En XML, los valores de los atributos deben ir siempre entre comillas.
+
+### Ejemplos en XML
+
+### Prólogo XML 
+![Alt text](image.png)
+
+### Etiquetas
+![Alt text](image-1.png)
+
+### Atributos
+![alt](https://i0.wp.com/img.c4learn.com/2012/05/What-is-an-XML-ELement1.png)
 
 
 ## Referencias
