@@ -131,9 +131,67 @@ Actualmente, las bases de datos NoSQL también utilizan JSON para almacenar info
 ![alt](https://help.rapid7.com/insightidr/content/resources/images/json/nested-json.png)
 
 ## YAML
+### ¿Qué es YAML?
+
+YAML es un lenguaje de serialización de datos. Cuando apareció en 2001, YAML significaba "Yet Another Markup Language" (otro lenguaje de marcado). El acrónimo se cambió más tarde a "YAML Ain't Markup Language" (YAML no es un lenguaje de marcado) para enfatizar que el lenguaje está pensado para datos y no para documentos.
+
+No es un lenguaje de programación en el verdadero sentido de la palabra. Los archivos YAML almacenan información, por lo que no incluyen acciones ni decisiones.
+
+A diferencia de XML o JSON, YAML presenta los datos de forma que un humano pueda leerlos fácilmente. La sintaxis simple no afecta a las capacidades del lenguaje. Cualquier dato o estructura que se añada a un archivo XML o JSON también puede almacenarse en YAML.
+
+Además de código legible por humanos, YAML también presenta:
+
+Portabilidad de datos entre lenguajes
+
+Un modelo de datos coherente
+
+Procesamiento en un solo paso
+
+Facilidad de implementación y uso
+
+### Características de YAML
+YAML tiene varias características que lo convierten en una excelente opción para el formateo de datos.
+
+1. Compatibilidad con varios documentos
+
+Los usuarios pueden añadir varios documentos a un único archivo YAML Separando los distintos documentos con tres guiones (---).
+
+Tres puntos ("...") marcan el final de un documento sin iniciar uno nuevo.
+
+2. Comentarios incorporados
+
+YAML permite a los usuarios añadir comentarios a su código. Los comentarios en YAML empiezan con el símbolo # y no tienen por qué estar en una línea aparte.
+
+3. Sintaxis Limpia
+
+Al igual que Python, YAML utiliza sangrías para mostrar los niveles y la estructura de los datos. No hay símbolos de formato habituales, como llaves, corchetes, etiquetas de cierre o comillas. La sintaxis es limpia y fácil de leer.
+
+La sintaxis limpia es la razón por la que varias herramientas populares se basan en YAML, como Ansible, Kubernetes y OpenStack.
+
+4. Sin tabulaciones
+
+YAML no permite tabulaciones. Los espacios son la única forma de lograr la indentación.
+
+Es una buena práctica mostrar caracteres de espacio en blanco en su editor de texto para evitar el uso accidental de tabuladores.
+
+5. Retroalimentación precisa 
+
+La retroalimentación de YAML se refiere a líneas específicas del archivo. Puedes encontrar y corregir errores rápidamente si sabes dónde buscar.
+
+6. Soporte de estructuras complejas
+
+YAML ofrece la posibilidad de referenciar otros objetos de datos. Con la referenciación, puede escribir datos recursivos en el archivo YAML y construir estructuras de datos avanzadas.
+
+7. Tipos de datos explícitos con etiquetas
+
+YAML detecta automáticamente el tipo de datos, pero los usuarios son libres de especificar el tipo que necesitan. Para especificar el tipo de datos, se incluye un símbolo "!!".
+
+8. Sin comandos ejecutables
 
 
+YAML es un formato de representación de datos. No existen comandos ejecutables, lo que hace que el lenguaje sea muy seguro a la hora de intercambiar archivos con terceros.
 
+Si un usuario desea añadir un comando ejecutable, YAML debe integrarse con otros lenguajes. Añadiendo analizadores sintácticos de Perl, por ejemplo, para permitir la ejecución de código Perl.
 
 ## Referencias
 
@@ -146,7 +204,7 @@ Actualmente, las bases de datos NoSQL también utilizan JSON para almacenar info
 * [W3C JSON] (https://www.w3schools.in/json/intro)
 * [Sobre JSON] (https://www.json.org/json-es.html)
 * [Diferencias entre Yaml y JSON] (https://aws.amazon.com/es/compare/the-difference-between-yaml-and-json/)
-
+* [What is YAML] (https://phoenixnap.com/blog/what-is-yaml-with-examples)
 ## Enlaces de interés
 * [W3C] (https://www.w3.org/)
 * [github] (https://github.com/) [Markdown] (https://markdown.es/) [Google Académico] (https://scholar.google.es/schhp?hl=es)
