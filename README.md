@@ -48,7 +48,23 @@ Por último, destacar que más tarde se crearía el lenague XHTML, que se utiliz
 
 3. Compatibilidad con HTML: Es mucho más fácil leer los datos de XML y mostrarlos en una GUI (interfaz gráfica de usuario, por sus siglas en inglés) utilizando el lenguaje de marcado HTML.
 
-4. Permite la transición de plataforma
+4. Permite la transición de plataforma: XML simplifica este proceso, ya que los datos se transportan en nuevos sistemas actualizados sin pérdida de datos.
+
+5. Permite la validación XML: Un documento XML puede validarse mediante DTD o esquema XML. Esto garantiza que el documento XML es sintácticamente correcto y evita cualquier problema que pueda surgir debido a un XML incorrecto.
+
+6. Se adapta a los avances tecnológicos: La razón por la que XML es tan popular y se utiliza desde hace tanto tiempo es que puede adaptarse a las nuevas tecnologías al ser independiente de plataforma.
+
+7. XML admite Unicode: XML admite Unicode, lo que le permite comunicar casi cualquier información en cualquier lenguaje humano escrito.
+
+
+
+## HTML
+### Las características de HTML son las siguientes:
+
+
+
+
+
 
 
 ## Referencias
