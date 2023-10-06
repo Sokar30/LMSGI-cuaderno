@@ -193,6 +193,10 @@ YAML es un formato de representación de datos. No existen comandos ejecutables,
 
 Si un usuario desea añadir un comando ejecutable, YAML debe integrarse con otros lenguajes. Añadiendo analizadores sintácticos de Perl, por ejemplo, para permitir la ejecución de código Perl.
 
+### Ejemplo de YAML:
+
+![alt](https://www.convertsimple.com/wp-content/uploads/2022/05/yaml-example.png)
+
 ## Referencias
 
 * [Artículo universidad Europea] (https://universidadeuropea.com/blog/que-es-lenguaje-marca/)
