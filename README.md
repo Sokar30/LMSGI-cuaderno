@@ -91,6 +91,8 @@ La seguridad no es brillante.
 
 ### Introducción sobre JSON:
 
+JSON es un formato ligero de intercambio de datos de texto más que un lenguaje de programación. Su sintaxis admite cadenas, valores, booleanos, nulos, así como objetos y matrices basados en él.
+
 
 
 
