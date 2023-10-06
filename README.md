@@ -126,6 +126,11 @@ JSON se utiliza principalmente para transmitir datos entre servidores y aplicaci
 
 Actualmente, las bases de datos NoSQL también utilizan JSON para almacenar información.
 
+### Ejemplo de JSON:
+
+![alt](https://help.rapid7.com/insightidr/content/resources/images/json/nested-json.png)
+
+## YAML
 
 
 
@@ -140,6 +145,7 @@ Actualmente, las bases de datos NoSQL también utilizan JSON para almacenar info
 
 * [W3C JSON] (https://www.w3schools.in/json/intro)
 * [Sobre JSON] (https://www.json.org/json-es.html)
+* [Diferencias entre Yaml y JSON] (https://aws.amazon.com/es/compare/the-difference-between-yaml-and-json/)
 
 ## Enlaces de interés
 * [W3C] (https://www.w3.org/)
