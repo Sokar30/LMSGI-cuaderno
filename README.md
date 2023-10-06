@@ -1,5 +1,7 @@
 # Cuaderno lenguaje de marcas
 ## Tabla de contenidos
+### Historia y evolución de los lenguajes de marcas
+### Características de los lenguajes de marcas
 # Qué es un lenguaje de marcas
 Según Lamarca (2010) los lenguajes de marcas constituyen una serie de reglas 
 que definen todo lo que forma parte de un documento digital a excepción del 
