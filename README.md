@@ -94,6 +94,37 @@ La seguridad no es brillante.
 JSON es un formato ligero de intercambio de datos de texto más que un lenguaje de programación. Su sintaxis admite cadenas, valores, booleanos, nulos, así como objetos y matrices basados en él.
 
 
+He aquí algunos datos sobre JSON:
+
+Douglas Crockford inventó el formato JSON.
+
+JSON es un formato ligero de intercambio de datos de texto.
+
+JSON no es un lenguaje de programación.
+
+XML es una alternativa a JSON. Sin embargo, los objetos JSON tienen varias ventajas frente a XML.
+
+El tipo de medio JSON es application/json y la extensión de archivo es .json.
+
+JSON se ha extendido desde el lenguaje de scripting JavaScript.
+
+JSON utiliza la sintaxis de JavaScript para describir objetos de datos, pero aún así, el lenguaje JSON es independiente de la plataforma. El analizador JSON y las bibliotecas JSON están disponibles en muchos lenguajes de programación diferentes.
+
+### Características de JSON:
+
+JSON es escalable. Al ser independiente del lenguaje, funciona con la mayoría de los lenguajes de programación modernos.
+
+JSON es ligero.
+
+JSON es fácil de leer y escribir.
+
+JSON es un formato de intercambio de datos basado en texto y legible por humanos.
+
+### ¿Qué se puede hacer con JSON?
+
+JSON se utiliza principalmente para transmitir datos entre servidores y aplicaciones web.
+
+Actualmente, las bases de datos NoSQL también utilizan JSON para almacenar información.
 
 
 
