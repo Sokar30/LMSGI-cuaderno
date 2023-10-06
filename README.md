@@ -197,6 +197,38 @@ Si un usuario desea añadir un comando ejecutable, YAML debe integrarse con otro
 
 ![alt](https://www.convertsimple.com/wp-content/uploads/2022/05/yaml-example.png)
 
+# XML: definición y características del metalenguaje
+### Definición de XML
+XML es un término que proviene de eXtensible Markup Language (“Lenguaje de Marcas Extensible”). Se trata de un metalenguaje (un lenguaje que se utiliza para decir algo acerca de otro) extensible de etiquetas que fue desarrollado por el Word Wide Web Consortium (W3C), una sociedad mercantil internacional que elabora recomendaciones para la World Wide Web.
+
+El XML es una adaptación del SGML (Standard Generalized Markup Language), un lenguaje que permite la organización y el etiquetado de documentos. Esto quiere decir que el XML no es un lenguaje en sí mismo, sino un sistema que permite definir lenguajes de acuerdo a las necesidades. El XHTML, el MathML y el SVG son algunos de los lenguajes que el XML tiene la capacidad de definir.
+
+Las bases de datos, los documentos de texto, las hojas de cálculo y las páginas web son algunos de los campos de aplicación del XML. El metalenguaje aparece como un estándar que estructura el intercambio de información entre las diferentes plataformas.
+
+### Las características de XML están expuestas en el apartado correspondiente
+### Prólogo
+Esta línea se denomina prólogo:
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+El prólogo XML es opcional. Si existe, debe figurar en primer lugar en el documento.
+
+Los documentos XML pueden contener caracteres internacionales, como el øæå noruego o el êèé francés.
+
+Para evitar errores, se debe especificar la codificación utilizada o guardar sus archivos XML como UTF-8.
+
+UTF-8 es la codificación de caracteres por defecto para los documentos XML.
+
+### Etiquetas
+
+
+
+
+
+
+
+
+
 ## Referencias
 
 * [Artículo universidad Europea] (https://universidadeuropea.com/blog/que-es-lenguaje-marca/)
@@ -204,7 +236,8 @@ Si un usuario desea añadir un comando ejecutable, YAML debe integrarse con otro
 * [Artículo sobre Lenguajes de marcas] (https://gsitic.wordpress.com/2018/01/06/bii9-lenguajes-de-marca-o-etiqueta-caracteristicas-y-funcionalidades-sgml-html-xml-y-sus-derivaciones-lenguajes-de-script/)
 * [Dpto. Informática Universidad de Burgos - XML] (https://www.infor.uva.es/~jvegas/cursos/web/xml/ixml/ixml.html)
 * [XML] (https://beginnersbook.com/2018/10/xml-features/)
-
+*[Definición XML] (https://definicion.de/xml/)
+*[ Reglas/Syntax de XML] (https://www.w3schools.com/xml/xml_syntax.asp)
 * [W3C JSON] (https://www.w3schools.in/json/intro)
 * [Sobre JSON] (https://www.json.org/json-es.html)
 * [Diferencias entre Yaml y JSON] (https://aws.amazon.com/es/compare/the-difference-between-yaml-and-json/)
