@@ -56,10 +56,40 @@ Por último, destacar que más tarde se crearía el lenague XHTML, que se utiliz
 
 7. XML admite Unicode: XML admite Unicode, lo que le permite comunicar casi cualquier información en cualquier lenguaje humano escrito.
 
+### Ejemplo de XML:
 
+![alt](https://docs.informatica.com/content/dam/source/GUID-9/GUID-9B047F14-F883-4E1F-930F-B6FA03EA7411/3/en/GUID-1005CEF2-D56A-4BEB-8CE9-0AC808A5D46E-low.png/_jcr_content/renditions/original)
 
 ## HTML
 ### Las características de HTML son las siguientes:
+
+Es fácil de aprender y de usar.
+
+Es independiente de la plataforma.
+
+Se pueden añadir imágenes, vídeos y audio a una página web.
+
+Se puede añadir hipertexto al texto.
+
+### Ventajas de HTML:
+
+HTML se utiliza para crear sitios web.
+
+Es compatible con todos los navegadores.
+
+Puede integrarse con otros lenguajes como CSS, JavaScript, etc.
+
+### Deventajas de HTML: 
+
+HTML sólo puede crear páginas web estáticas. Para páginas dinámicas, hay que utilizar otros lenguajes.
+
+Hay que escribir una gran cantidad de código para crear una simple página web.
+
+La seguridad no es brillante.
+
+## JSON
+
+### Introducción sobre JSON:
 
 
 
@@ -74,6 +104,9 @@ Por último, destacar que más tarde se crearía el lenague XHTML, que se utiliz
 * [Artículo sobre Lenguajes de marcas] (https://gsitic.wordpress.com/2018/01/06/bii9-lenguajes-de-marca-o-etiqueta-caracteristicas-y-funcionalidades-sgml-html-xml-y-sus-derivaciones-lenguajes-de-script/)
 * [Dpto. Informática Universidad de Burgos - XML] (https://www.infor.uva.es/~jvegas/cursos/web/xml/ixml/ixml.html)
 * [XML] (https://beginnersbook.com/2018/10/xml-features/)
+
+* [W3C JSON] (https://www.w3schools.in/json/intro)
+* [Sobre JSON] (https://www.json.org/json-es.html)
 
 ## Enlaces de interés
 * [W3C] (https://www.w3.org/)
