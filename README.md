@@ -1,6 +1,6 @@
 # Cuaderno lenguaje de marcas
 ## Tabla de contenidos
-### Historia y evolución de los lenguajes de marcas
+# Historia y evolución de los lenguajes de marcas
 ### Características de los lenguajes de marcas
 ### XML: definición y características del metalenguaje
 # Qué es un lenguaje de marcas
