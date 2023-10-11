@@ -4,7 +4,7 @@
 
 [Características de los lenguajes de marcas](#Características-de-los-lenguajes-de-marcas)
 
-[XML: definición y características del metalenguaje](#XML:-definición-y-características-del-metalenguaje)
+[XML: definición y características del metalenguaje](#xml-definici%C3%B3n-y-caracter%C3%ADsticas-del-metalenguaje)
 
 # Qué es un lenguaje de marcas
 Según Lamarca (2010) los lenguajes de marcas constituyen una serie de reglas 
