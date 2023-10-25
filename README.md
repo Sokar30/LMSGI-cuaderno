@@ -26,7 +26,7 @@ Además, es fácil acceder a su contenido a través de cualquier dispositivo y a
 ## Características de los lenguajes de marcas
 1. Un lenguaje de marcado utiliza etiquetas para anotar textos. Las etiquetas son palabras o caracteres especiales que indican cuándo debe aplicarse un formato.
 
-2. Las etiquetas van en pares, con una etiqueta de apertura y otra de cierre. Por ejemplo, en HTML, la etiqueta de negrita*is written as < b > y < /b >.
+2. Las etiquetas van en pares, con una etiqueta de apertura y otra de cierre. Por ejemplo, en HTML, la etiqueta de negrita se escribe así: < b > y < /b >.
 
 3. El texto que va entre las etiquetas de apertura y cierre se verá afectado por el formato. En el caso de la etiqueta negrita, el documento mostraría el texto en negrita.
 
