@@ -33,6 +33,17 @@ Además, es fácil acceder a su contenido a través de cualquier dispositivo y a
 4. Los lenguajes de marcas son fáciles de leer. En general, cualquiera debería ser capaz de leer y entender un lenguaje de marcas, aunque no sepa escribirlo.
 
 5. Los lenguajes de marcas también tienen una sintaxis, o conjunto de reglas, que definen cómo utilizar las etiquetas. Esta sintaxis permite crear documentos coherentes y estructurados.
+
+* Independencia. Su uso no debe depender de ninguna plataforma Hardware ni sistema Software concreto.
+
+* Almacenados en texto plano. El documento está compuesto únicamente por caracteres de texto.
+
+* Flexibilidad. Los lenguajes de marcas deben ser lo suficientemente flexibles para poder utilizarse en diferentes contexto.
+
+* Compactibilidad. Las marcas y el contenido se encuentran en el mismo documento.
+
+* Facilidad de procesamiento. El formato debe ser diseñado de tal manera que el procesamiento automático sea sencillo.
+
 # Historia y evolución de los lenguajes de marcas
 
 En los años 60 se planteó un problema que existía en el mundo de la informática: No había prácticamente ninguna compatibilidad entre sistemas operativos y programas.
