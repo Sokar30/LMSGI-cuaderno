@@ -23,26 +23,6 @@ Muchas personas confunden los lenguajes de marcado, como también se les conoce,
 De hecho, el lenguaje de marcado posee algunas características distintivas, como el uso de texto plano, de forma que cualquier persona puede leer y editar la información.
 
 Además, es fácil acceder a su contenido a través de cualquier dispositivo y altamente flexible, ya que permite combinar con otros lenguajes. También se trata de un lenguaje compacto en el que las etiquetas de marcas se unen con el contenido del mismo.
-## Características de los lenguajes de marcas
-1. Un lenguaje de marcado utiliza etiquetas para anotar textos. Las etiquetas son palabras o caracteres especiales que indican cuándo debe aplicarse un formato.
-
-2. Las etiquetas van en pares, con una etiqueta de apertura y otra de cierre. Por ejemplo, en HTML, la etiqueta de negrita se escribe así: < b > y < /b >.
-
-3. El texto que va entre las etiquetas de apertura y cierre se verá afectado por el formato. En el caso de la etiqueta negrita, el documento mostraría el texto en negrita.
-
-4. Los lenguajes de marcas son fáciles de leer. En general, cualquiera debería ser capaz de leer y entender un lenguaje de marcas, aunque no sepa escribirlo.
-
-5. Los lenguajes de marcas también tienen una sintaxis, o conjunto de reglas, que definen cómo utilizar las etiquetas. Esta sintaxis permite crear documentos coherentes y estructurados.
-
-* Independencia. Su uso no debe depender de ninguna plataforma Hardware ni sistema Software concreto.
-
-* Almacenados en texto plano. El documento está compuesto únicamente por caracteres de texto.
-
-* Flexibilidad. Los lenguajes de marcas deben ser lo suficientemente flexibles para poder utilizarse en diferentes contexto.
-
-* Compactibilidad. Las marcas y el contenido se encuentran en el mismo documento.
-
-* Facilidad de procesamiento. El formato debe ser diseñado de tal manera que el procesamiento automático sea sencillo.
 
 # Historia y evolución de los lenguajes de marcas
 
@@ -65,6 +45,27 @@ En 1998 surge como estándar del W3C el lenguaje de marcas XML. Se trata de un l
 Por último, destacar que más tarde se crearía el lenague XHTML, que se utiliza pra la creación de páginas webs, y usa reglas de sintaxis XML, que son más estrictas que HTML. XHTML tiene como objetivo proporcionar consistencia de representación entre los navegadores. 
 
 # Características de los lenguajes de marcas
+
+1. Un lenguaje de marcado utiliza etiquetas para anotar textos. Las etiquetas son palabras o caracteres especiales que indican cuándo debe aplicarse un formato.
+
+2. Las etiquetas van en pares, con una etiqueta de apertura y otra de cierre. Por ejemplo, en HTML, la etiqueta de negrita se escribe así: < b > y < /b >.
+
+3. El texto que va entre las etiquetas de apertura y cierre se verá afectado por el formato. En el caso de la etiqueta negrita, el documento mostraría el texto en negrita.
+
+4. Los lenguajes de marcas son fáciles de leer. En general, cualquiera debería ser capaz de leer y entender un lenguaje de marcas, aunque no sepa escribirlo.
+
+5. Los lenguajes de marcas también tienen una sintaxis, o conjunto de reglas, que definen cómo utilizar las etiquetas. Esta sintaxis permite crear documentos coherentes y estructurados.
+
+* Independencia. Su uso no debe depender de ninguna plataforma Hardware ni sistema Software concreto.
+
+* Almacenados en texto plano. El documento está compuesto únicamente por caracteres de texto.
+
+* Flexibilidad. Los lenguajes de marcas deben ser lo suficientemente flexibles para poder utilizarse en diferentes contexto.
+
+* Compactibilidad. Las marcas y el contenido se encuentran en el mismo documento.
+
+* Facilidad de procesamiento. El formato debe ser diseñado de tal manera que el procesamiento automático sea sencillo.
+
 ## XML
 ### Las características de XML son las siguientes: 
 
