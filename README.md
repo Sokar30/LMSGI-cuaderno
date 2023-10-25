@@ -113,6 +113,8 @@ Hay que escribir una gran cantidad de código para crear una simple página web.
 
 La seguridad no es brillante.
 
+![alt](https://kinsta.com/wp-content/uploads/2021/11/Untitled-54.png)
+
 ## JSON
 
 ### Introducción sobre JSON:
