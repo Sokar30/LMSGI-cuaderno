@@ -22,7 +22,7 @@ Muchas personas confunden los lenguajes de marcado, como también se les conoce,
 
 De hecho, el lenguaje de marcado posee algunas características distintivas, como el uso de texto plano, de forma que cualquier persona puede leer y editar la información.
 
-Además, es fácil acceder a su contenido a través de cualquier dispositivo y altamente flexible, ya que permite combinar con otros lenguajes. También se trata de un lenguaje compacto en el que las etiquetas de marcas se unen con el contenido del mismo.
+Además, es fácil acceder a su contenido a través de cualquier dispositivo y altamente flexible, ya que permite combinar otros lenguajes. También se trata de un lenguaje compacto en el que las etiquetas de marcas se unen con el contenido del mismo.
 
 # Historia y evolución de los lenguajes de marcas
 
@@ -75,13 +75,11 @@ Por último, destacar que más tarde se crearía el lenague XHTML, que se utiliz
 
 3. Compatibilidad con HTML: Es mucho más fácil leer los datos de XML y mostrarlos en una GUI (interfaz gráfica de usuario, por sus siglas en inglés) utilizando el lenguaje de marcado HTML.
 
-4. Permite la transición de plataforma: XML simplifica este proceso, ya que los datos se transportan en nuevos sistemas actualizados sin pérdida de datos.
+4. Permite la validación XML: Un documento XML puede validarse mediante DTD o esquema XML. Esto garantiza que el documento XML es sintácticamente correcto y evita cualquier problema que pueda surgir debido a un XML incorrecto.
 
-5. Permite la validación XML: Un documento XML puede validarse mediante DTD o esquema XML. Esto garantiza que el documento XML es sintácticamente correcto y evita cualquier problema que pueda surgir debido a un XML incorrecto.
+5. Se adapta a los avances tecnológicos: La razón por la que XML es tan popular y se utiliza desde hace tanto tiempo es que puede adaptarse a las nuevas tecnologías al ser independiente de plataforma.
 
-6. Se adapta a los avances tecnológicos: La razón por la que XML es tan popular y se utiliza desde hace tanto tiempo es que puede adaptarse a las nuevas tecnologías al ser independiente de plataforma.
-
-7. XML admite Unicode: XML admite Unicode, lo que le permite comunicar casi cualquier información en cualquier lenguaje humano escrito.
+6. XML admite Unicode: XML admite Unicode, lo que le permite comunicar casi cualquier información en cualquier lenguaje humano escrito.
 
 ### Ejemplo de XML:
 
@@ -199,7 +197,7 @@ La sintaxis limpia es la razón por la que varias herramientas populares se basa
 
 4. Sin tabulaciones
 
-YAML no permite tabulaciones. Los espacios son la única forma de lograr la indentación.
+YAML no permite tabulaciones. Los espacios son la única forma de lograr el sangrado.
 
 Es una buena práctica mostrar caracteres de espacio en blanco en su editor de texto para evitar el uso accidental de tabuladores.
 
@@ -278,18 +276,20 @@ En XML, los valores de los atributos deben ir siempre entre comillas.
 
 ## Referencias
 
-* [Artículo universidad Europea] (https://universidadeuropea.com/blog/que-es-lenguaje-marca/)
-* [UOC sobre SGML] (http://cv.uoc.edu/UOC/a/moduls/90/90_225/web/main/m1/v4_1.html#:~:text=B%C3%A1sicamente%2C%20el%20SGML%20(Standard%20Generalized,el%20sistema%20que%20se%20utilice.)
-* [Artículo sobre Lenguajes de marcas] (https://gsitic.wordpress.com/2018/01/06/bii9-lenguajes-de-marca-o-etiqueta-caracteristicas-y-funcionalidades-sgml-html-xml-y-sus-derivaciones-lenguajes-de-script/)
-* [Dpto. Informática Universidad de Burgos - XML] (https://www.infor.uva.es/~jvegas/cursos/web/xml/ixml/ixml.html)
-* [XML] (https://beginnersbook.com/2018/10/xml-features/)
-*[Definición XML] (https://definicion.de/xml/)
-*[ Reglas/Syntax de XML] (https://www.w3schools.com/xml/xml_syntax.asp)
-* [W3C JSON] (https://www.w3schools.in/json/intro)
-* [Sobre JSON] (https://www.json.org/json-es.html)
-* [Diferencias entre Yaml y JSON] (https://aws.amazon.com/es/compare/the-difference-between-yaml-and-json/)
-* [What is YAML] (https://phoenixnap.com/blog/what-is-yaml-with-examples)
+* [Artículo universidad Europea](https://universidadeuropea.com/blog/que-es-lenguaje-marca/)
+* [UOC sobre SGML](https://cv.uoc.edu/UOC/a/moduls/90/90_225/web/main/m1/v4_1.html#:~:text=B%C3%A1sicamente%2C%20el%20SGML%20Standard%20Generalized,el%20sistema%20que%20se%20utilice.)
+* [Artículo sobre Lenguajes de marcas](https://gsitic.wordpress.com/2018/01/06/bii9-lenguajes-de-marca-o-etiqueta-caracteristicas-y-funcionalidades-sgml-html-xml-y-sus-derivaciones-lenguajes-de-script/)
+* [Dpto. Informática Universidad de Burgos - XML](https://www.infor.uva.es/~jvegas/cursos/web/xml/ixml/ixml.html)
+* [XML](https://beginnersbook.com/2018/10/xml-features/)
+*[Definición XML](https://definicion.de/xml/)
+*[ Reglas/Syntax de XML](https://www.w3schools.com/xml/xml_syntax.asp)
+* [W3C JSON](https://www.w3schools.in/json/intro)
+* [Sobre JSON](https://www.json.org/json-es.html)
+* [Diferencias entre Yaml y JSON](https://aws.amazon.com/es/compare/the-difference-between-yaml-and-json/)
+* [What is YAML](https://phoenixnap.com/blog/what-is-yaml-with-examples)
 ## Enlaces de interés
-* [W3C] (https://www.w3.org/)
-* [github] (https://github.com/) [Markdown] (https://markdown.es/) [Google Académico] (https://scholar.google.es/schhp?hl=es)
+* [W3C](https://www.w3.org/)
+* [github](https://github.com/) 
+* [Markdown](https://markdown.es/) 
+* [Google Académico](https://scholar.google.es/schhp?hl=es)
 
