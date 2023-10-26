@@ -139,11 +139,11 @@ JSON utiliza la sintaxis de JavaScript para describir objetos de datos, pero aú
 
 ### Características de JSON:
 
-JSON es escalable. Al ser independiente del lenguaje, funciona con la mayoría de los lenguajes de programación modernos.
+Sintaxis simple basada en "clave-valor"
 
-JSON es ligero.
+Estructura anidada y jerárquica
 
-JSON es fácil de leer y escribir.
+JSON es fácil de leer y escribir. 
 
 JSON es un formato de intercambio de datos basado en texto y legible por humanos.
 
