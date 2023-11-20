@@ -69,7 +69,7 @@ Por último, destacar que más tarde se crearía el lenague XHTML, que se utiliz
 ## XML
 ### Las características de XML son las siguientes: 
 
-1. XML Se centra prioriza la información a la apariencia: Una de las razones por las que XML es popular es porque prioriza la información a la presentación de la misma.
+1. XML Se centra en priorizar la información a la apariencia: Una de las razones por las que XML es popular es porque prioriza la información a la presentación de la misma.
 
 2. Intercambio de datos fácil y eficaz: Como XML es independiente del software y el hardware, es más fácil compartir datos entre distintos sistemas con diferente configuración de hardware y software. Cualquier sistema con cualquier lenguaje de programación puede leer y procesar un documento XML.
 
@@ -224,7 +224,7 @@ Si un usuario desea añadir un comando ejecutable, YAML debe integrarse con otro
 
 ![alt](https://www.convertsimple.com/wp-content/uploads/2022/05/yaml-example.png)
 
-# XML: definición y características del metalenguaje
+# XML: definición y estructura de XML
 ### Definición de XML
 XML es un término que proviene de eXtensible Markup Language (“Lenguaje de Marcas Extensible”). Se trata de un metalenguaje (un lenguaje que se utiliza para decir algo acerca de otro) extensible de etiquetas que fue desarrollado por el Word Wide Web Consortium (W3C), una sociedad mercantil internacional que elabora recomendaciones para la World Wide Web.
 
@@ -232,17 +232,39 @@ El XML es una adaptación del SGML (Standard Generalized Markup Language), un le
 
 Las bases de datos, los documentos de texto, las hojas de cálculo y las páginas web son algunos de los campos de aplicación del XML. El metalenguaje aparece como un estándar que estructura el intercambio de información entre las diferentes plataformas.
 
-### Las características de XML están expuestas en el apartado correspondiente
+### Estructura de XML
 ### Prólogo
 Esta línea se denomina prólogo:
 
 El prólogo XML es opcional. Si existe, debe figurar en primer lugar en el documento.
 
+El prólogo puede contener los siguientes atributos:
+
+La versión indica qué versión de XML es.
+
 Los documentos XML pueden contener caracteres internacionales, como el øæå noruego o el êèé francés.
 
 Para evitar errores, se debe especificar la codificación utilizada o guardar sus archivos XML como UTF-8.
 
+
 UTF-8 es la codificación de caracteres por defecto para los documentos XML.
+
+Standalone determina la independencia del documento o si existe un DTD externo. Los valores que admiten son "yes" o "no" para indicar si el DTD forma parte del documento XML o no.
+
+![alt](https://image3.slideserve.com/5427871/struttura-logica-di-un-documento-l.jpg)
+
+### Elementos
+
+Un elemento tiene un nombre tiene un nombre que se diferencia entre mayúsculas y minúsculas.
+
+El elemento puede contener caracteres alfanuméricos, guiones, guiones bajos o puntos. No puede contener espacios.
+
+Debe haber un único elemento conocido como raíz.
+
+Dentro de un elemento puede haber más elementos o texto.
+
+
+
 
 ### Etiquetas
 Todos los elementos XML deben tener una etiqueta de cierre
@@ -271,7 +293,7 @@ En XML, los valores de los atributos deben ir siempre entre comillas.
 ![Alt text](image-1.png)
 
 ### Atributos
-![alt](https://i0.wp.com/img.c4learn.com/2012/05/What-is-an-XML-ELement1.png)
+![alt](https://www.abrirllave.com/dtd/images/deportistas-dtd-chrome.gif)
 
 
 ## Referencias
