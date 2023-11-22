@@ -278,15 +278,15 @@ Las "etiquetas de apertura y cierre" suelen denominarse "etiquetas de inicio y f
 
 ### Atributos
 
-Deben tener un valor asignado
+* Deben tener un valor asignado
 
-Comienzan por una letra o guión bajo.
+* Comienzan por una letra o guión bajo.
 
-Los valores de los atributos XML siempre deben entrecomillarse.
+* Los valores de los atributos XML siempre deben entrecomillarse.
 
-Los atributos siempre están dentro de la etiqueta de apertura de un elemento.
+* Los atributos siempre están dentro de la etiqueta de apertura de un elemento.
 
-Los elementos XML pueden tener atributos en pares nombre/valor, igual que en HTML.
+* Los elementos XML pueden tener atributos en pares nombre/valor, igual que en HTML.
 
 ### Comentarios
 
@@ -304,6 +304,10 @@ iguales.
 La declaración de un espacio de nombres se realiza con el atributo xmlns seguido por el nombre y una URL.
 ### Entidades
 
+Las entidades en XML permiten incluir información predefinida en un documento.
+
+* Pueden estar definidas en el propio DTD o ser externas
+* Empiezan 
 
 
 ### Ejemplos en XML
