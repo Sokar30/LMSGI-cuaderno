@@ -263,8 +263,7 @@ Debe haber un único elemento conocido como raíz.
 
 Dentro de un elemento puede haber más elementos o texto.
 
-
-
+Un elemento vacío se puede representar como < nombre />
 
 ### Etiquetas
 Todos los elementos XML deben tener una etiqueta de cierre
@@ -278,11 +277,34 @@ Las etiquetas de apertura y cierre deben escribirse con las mismas mayúsculas y
 Las "etiquetas de apertura y cierre" suelen denominarse "etiquetas de inicio y fin".Se puede utilizar lo que prefiera. Es exactamente lo mismo.
 
 ### Atributos
-Los valores de los atributos XML siempre deben entrecomillarse
+
+Deben tener un valor asignado
+
+Comienzan por una letra o guión bajo.
+
+Los valores de los atributos XML siempre deben entrecomillarse.
+
+Los atributos siempre están dentro de la etiqueta de apertura de un elemento.
 
 Los elementos XML pueden tener atributos en pares nombre/valor, igual que en HTML.
 
-En XML, los valores de los atributos deben ir siempre entre comillas.
+### Comentarios
+
+Un comentario en XML, es un elemento, que no va a ser procesado; sirve para
+mostrar información al usuario para entender el contexto del documento u otra
+información.
+
+Empiezan por <! -- y acaban por -->
+
+### Espacios de nombres
+
+El espacio de nombres es un identificador que se utiliza para resolver las ambigüedades que podrían surgir  cuando hay dos o más elementos
+iguales.
+
+La declaración de un espacio de nombres se realiza con el atributo xmlns seguido por el nombre y una URL.
+### Entidades
+
+
 
 ### Ejemplos en XML
 
