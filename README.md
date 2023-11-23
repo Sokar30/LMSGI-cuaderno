@@ -263,7 +263,7 @@ Debe haber un único elemento conocido como raíz.
 
 Dentro de un elemento puede haber más elementos o texto.
 
-Un elemento vacío se puede representar como < nombre />
+Un elemento vacío se puede representar como `<nombre/>`
 
 ### Etiquetas
 Todos los elementos XML deben tener una etiqueta de cierre
@@ -294,7 +294,11 @@ Un comentario en XML, es un elemento, que no va a ser procesado; sirve para
 mostrar información al usuario para entender el contexto del documento u otra
 información.
 
-Empiezan por <! -- y acaban por -->
+Empiezan por: 
+
+```
+<!-- y acaban por -->
+```
 
 ### Espacios de nombres
 
@@ -307,7 +311,30 @@ La declaración de un espacio de nombres se realiza con el atributo xmlns seguid
 Las entidades en XML permiten incluir información predefinida en un documento.
 
 * Pueden estar definidas en el propio DTD o ser externas
-* Empiezan 
+* Empiezan por & y finalizan por;
+* se clasifican por:
+
+Generales -forman parte del documento- 
+
+Internas -son predefinidas y mantienen su valor-
+
+Externas -mantienen los valores en un fichero externo-
+
+Entidades de parámetros -se transforman en DTD-
+
+XML incluye las siguientes entidades predefinidas:
+
+```
+&lt; Menor que <
+&gt; Mayor que >
+&amp; Ampersand &
+&apos; Comilla simple ‘
+&quot; Comilla doble “
+```
+
+### CDATA
+
+El elemento CDATA 
 
 
 ### Ejemplos en XML
