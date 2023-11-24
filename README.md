@@ -399,6 +399,54 @@ Resto de reglas que incluye
 ### Entidades
 
 *Internas: Definidas en el propio DTD
+```
+<!ENTITY nombreEntidad “valor”>
+```
+* Externas: Definidas en un fichero externo. Pueden ser públicas o privadas.
+
+```
+Públicas: <!ENTITY nombreEntidad PUBLIC “id_publico” “URI/URL”>
+Privadas: <!ENTITY nombreEntidad SYSTEM “URI/URL”>
+
+Para usar una entidad:
+&nombreEntidad;
+```
+
+### Anotaciones
+
+Una anotación, nos permite identificar el formato de entidades que no son XML y que no se van a procesar, como por ejemplo, el valor de un atributo.
+
+Pueden ser:
+
+● Públicas
+
+● Privadas
+
+```
+<!NOTATION nombre SYSTEM “URI”>
+<!NOTATION nombre PUBLIC “id_publico”>
+<!NOTATION nombre PUBLIC “Id_publico” “URI”>
+```
+### Elementos
+
+Un elemento en DTD, define la estructura de uno o varios elementos que contienen el elemento.
+
+Para definirlo se usa la siguiente sintaxis:
+
+```
+<!ELEMENT nombreElemento (contenido)>
+```
+Dónde contenido puede ser:
+
+● EMPTY: Vacío.
+
+● ANY: Cualquier valor.
+
+● (#PCDATA): Elementos de tipo carácter.
+
+● (nombreElemento): Elemento hijo.
+
+● (nombreElemento1,NombreElemento2,...): Lista de elementos hijos.
 
 ### Ejemplos en XML
 
