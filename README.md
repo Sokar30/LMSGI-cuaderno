@@ -350,6 +350,17 @@ El elemento CDATA es un fragmento de información que no será procesado por el 
 </book>
 
 ```
+# Ejemplos de XML
+
+### Prólogo XML 
+![Alt text](image.png)
+
+### Etiquetas
+![Alt text](image-1.png)
+
+### Atributos
+![alt](https://www.abrirllave.com/dtd/images/deportistas-dtd-chrome.gif)
+
 # Validación de documentos
 
 A la hora de trabajar con documentos XML, hay que tener en cuenta dos cuestiones:
@@ -495,16 +506,12 @@ Para el valor atributo, se pueden utilizar:
 
 * #FIXED valor: Indica un valor fijo.
 
-### Ejemplos en XML
+# XML Schema
 
-### Prólogo XML 
-![Alt text](image.png)
+XSD (XML Schema Definition), a recommendation of the World Wide Web Consortium (W3C), specifies how to formally describe the elements in an Extensible Markup Language (XML) document. It can be used by programmers to verify each piece of item content in a document, to assure it adheres to the description of the element it is placed in.
 
-### Etiquetas
-![Alt text](image-1.png)
 
-### Atributos
-![alt](https://www.abrirllave.com/dtd/images/deportistas-dtd-chrome.gif)
+
 
 
 ## Referencias
