@@ -448,6 +448,53 @@ Dónde contenido puede ser:
 
 ● (nombreElemento1,NombreElemento2,...): Lista de elementos hijos.
 
+Es importante saber, que se puede indicar una cardinalidad, a la hora de saber cuantas veces puede repetirse un elemento dentro de otro.
+
+### Atributos
+
+Para definir un atributo con DTD, podemos usar la siguiente sintaxis.
+
+```
+<!ATTLIST nombreElemento nombreAtributo tipoAtributo
+“valorAtributo”>
+```
+Dónde tipoAtributo puede ser:
+
+* CDATA: cadena de caracteres
+
+* (valor1|valor2): Lista de valores
+
+* ID: Identificador único
+
+* IDREF: Referencia a un identificador de otro elemento.
+
+* IDREFS: Lista de referencias de otros identificadores.
+
+* NMTOKEN: Nombre XML válido.
+
+* NMTOKENS: Lista de nombres XML válidos.
+
+* ENTITY: Referencia a una entidad.
+
+* ENTITIES: Referencia de un conjunto de entidades.
+
+* NOTATION: Nombre de una anotación.
+
+* xml:lang: Idioma del documento.
+
+* xml:space: Indica si se han de respetar espacios tabulaciones y retornos de
+carro múltiples.
+
+Para el valor atributo, se pueden utilizar:
+
+* valor: valor o lista de valores (separados por | )que puede tomar el atributo.
+
+* #REQUIRED: Indica que el valor es requerido.
+
+* #IMPLIED: Indica que el valor es opcional.
+
+* #FIXED valor: Indica un valor fijo.
+
 ### Ejemplos en XML
 
 ### Prólogo XML 
