@@ -334,8 +334,71 @@ XML incluye las siguientes entidades predefinidas:
 
 ### CDATA
 
-El elemento CDATA 
+El elemento CDATA es un fragmento de información que no será procesado por el analizador, pero se almacenará su información, a diferencia de un comentario.
+```
+<book>
+    <description>
+           <![CDATA[  <html>
+                                <head>
+                                </head>
+                                <body>
+                                     <h1> Encabezado</h1>
+                               </body>
+                           </html>
+           ]]>
+    </description>
+</book>
 
+```
+# Validación de documentos
+
+A la hora de trabajar con documentos XML, hay que tener en cuenta dos cuestiones:
+
+* Que el documento esté bien formado, es decir que cumpla las reglas del metalenguaje XML.
+
+* Que el documento esté validado, esto quiere decir que la estructura del documento cumpla un cierto esquema o vocabulario.
+
+Un documento XML está bien formado si:
+
+*Tiene un único elemento raíz.
+
+* Todos los elementos deben estar cerrados.
+
+* Los elementos tienen que estar anidados correctamente; no se pueden
+intercalar aperturas y cierres.
+
+* Todos los valores de los atributos están entrecomillados.
+
+* Los nombres de elementos y atributos, deben cumplir sus respectivas reglas.
+
+Para realizar la validación de un documento XML, podemos usar dos herramientas:
+
+* DTD
+
+* XML Schema
+
+### DTD
+
+Un DTD puede ser:
+
+* Interno: Forma parte del documento. Se define con la siguiente sintaxis
+
+```
+<!DOCTYPE nombreElemento[
+Resto de reglas que incluye
+]>
+
+```
+
+* Externo: Está definido en un fichero externo. Se define con la siguiente Sintaxis.
+
+```
+<!DOCTYPE nombreElemento SYSTEM “Uri”>
+
+```
+### Entidades
+
+*Internas: Definidas en el propio DTD
 
 ### Ejemplos en XML
 
