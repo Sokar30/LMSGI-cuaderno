@@ -609,6 +609,50 @@ El atributo tiene las siguientes propiedades:
 
 Hay que tener en cuenta que los atributos no tienen orden, ni cardinalidad ni pueden tener hijos. Además se pueden establecer restricciones para sus valores.
 
+Como hemos comentado, se pueden establecer restricciones a elementos y atributos. Su sintaxis es:
+
+```
+<xs:restriction base=”xs:integer”> 
+    …. 
+</xs:restriction>
+```
+Dentro de la restricción, se establecen facetas que establecen los tipos de valores a utilizar.
+
+### Tipos de datos
+
+xs:string - cadena de caracteres
+
+xs:integer - Números enteros.
+
+xs:decimal - Números decimales; usando “.” como separador.
+
+xs:boolean - Booleano. “true” para verdadero y “false” para lo contrario.
+
+xs:date - fecha con formato AAAA-MM-DD.
+
+xs:time - hora con formato hh:mm:ss.
+
+xs:duration - duración de tiempo en formato “PnYnMnDTnHnMnS”.
+
+### Comentarios
+
+Se pueden establecer comentarios dentro del XMLSchema para ayudar a su comprensión:
+
+```
+<xs:element name=”mensaje”> 
+    <xs:annotation> 
+        <xs:appInfo>Información de mensaje</xs:appInfo> 
+        <xs:documentation xml:lang=”es”>   
+        Mensaje a enviar 
+        </xs:documentation> 
+</xs:annotation>
+```
+Donde:
+
+* appInfo: información del elemento o atributo. 
+
+* documentation: documentación en detalle del elemento o atributo.
+
 ## Referencias
 
 * [Artículo universidad Europea](https://universidadeuropea.com/blog/que-es-lenguaje-marca/)
