@@ -508,11 +508,106 @@ Para el valor atributo, se pueden utilizar:
 
 # XML Schema
 
-XSD (XML Schema Definition), a recommendation of the World Wide Web Consortium (W3C), specifies how to formally describe the elements in an Extensible Markup Language (XML) document. It can be used by programmers to verify each piece of item content in a document, to assure it adheres to the description of the element it is placed in.
+XSD (XML Schema Definition), una recomendación del Consorcio World Wide Web (W3C), especifica cómo describir formalmente los elementos de un documento XML (Extensible Markup Language). Los programadores pueden utilizarlo para comprobar el contenido de cada elemento de un documento y asegurarse de que se ajusta a la descripción del elemento en el que se encuentra.
+
+XMLSchema se basa en la creación de elementos y atributos; teniendo en cuenta sus restricciones. Es decir, que se permite establecer restricciones de tipos o de las relaciones entre los distintos elementos.
+
+## Estructura Básica
+
+### Dentro de un XSD, puede haber los siguientes elementos:
+
+* Elementos
+
+* restricciones
+
+* subElemntos
+
+* Atributos
+
+* Comentarios
+
+### Elementos
+
+Para declarar un elemento en XML SChema se usa la siguiente sintaxis:
+```
+<xs:element name=”” type”” default=”” fixed=”” minOccurs=”0” maxOccurs=”0”/>
+```
+Donde:
+
+* name: Nombre del elemento.
+
+* type: Tipo de dato que contiene.
+
+* default: Valor por defecto.
+
+* Fixed: Valor del atributo en caso de que exista.
+
+* minOccurs: número de veces mínimo que puede aparecer. Por defecto 1.
+
+* maxOccurs: número de veces máximo que puede aparecer. Por defecto 1.
+
+### Elemento simple:
+
+Almacena información como texto; aunque este pueda tener distintos significado dependiendo del tipo de dato a almacenar, o establecer una o varias restricciones.
+
+```
+<xs:element name=”fecha” type=”xs:date”/>
+```
+### Elemento complejo
+
+Un elemento complejo, es aquel que almacena otros elementos o atributos. Por ejemplo:
+
+```
+<xs:element name=”mensaje”> 
+    <xs:complexType> 
+        <xs:sequence> 
+            <xs:element name=”para” type=”xs:string”/> 
+        </xs:sequence> </xs:complexType> 
+</xs:element>
+```
+
+Dentro de un tipo complejo se establece: 
+* subElementos
+
+* atributos. 
+
+ Un subelemento, establece la relación de los elementos contenidos con respecto al padre. 
+ 
+ Pueden ser: 
+
+ * xs:sequence: indica una secuencia de elementos obligatorios, y en el mismo orden. 
+ 
+ * xs:choise: señala una secuencia de elementos alternativos. Solo debe aparecer uno de ellos. 
+ 
+ * xs:all: indica una secuencia de elementos opcionales; no es obligatorio que aparezcan todos en el mismo orden.
 
 
+### Atributos
 
+Un atributo, puede estar dentro de un elemento simple o complejo; tiene la siguiente sintaxis:
 
+```
+<xs:attribute name="" type="" use="required" default="" fixed=""/>
+```
+El atributo tiene las siguientes propiedades:
+
+* name: Nombre del atributo.
+
+* type: Tipo de dato.
+
+* use: Indica su obligatoriedad. Tiene los siguientes valores:
+
+* required: obligatorio.
+
+* optional: Opcional.
+
+* prohibited: No se puede utilizar el dicho elemento.
+
+* default: Permite asignar un valor por defecto.
+
+* fixed: Determina el valor del atributo en caso de que exista.
+
+Hay que tener en cuenta que los atributos no tienen orden, ni cardinalidad ni pueden tener hijos. Además se pueden establecer restricciones para sus valores.
 
 ## Referencias
 
