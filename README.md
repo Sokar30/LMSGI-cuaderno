@@ -255,7 +255,7 @@ Standalone determina la independencia del documento o si existe un DTD externo. 
 
 ### Elementos
 
-Un elemento tiene un nombre tiene un nombre que se diferencia entre mayúsculas y minúsculas.
+Un elemento tiene un nombre que se diferencia entre mayúsculas y minúsculas.
 
 El elemento puede contener caracteres alfanuméricos, guiones, guiones bajos o puntos. No puede contener espacios.
 
